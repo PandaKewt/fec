@@ -41,9 +41,12 @@ export default function Letter() {
                 className='h-full w-full'
                 rewind={true}
             >
-                {messages.map(({ messages }) => {
+                {messages.map(({ messages }, index) => {
                     return (
-                        <SwiperSlide className='rounded-xl bg-red-500 w-full noSwipingClass'>
+                        <SwiperSlide
+                            className='rounded-xl bg-red-500 w-full'
+                            key={`message ${index}`}
+                        >
                             <div className='flex place-items-center place-content-center h-full p-14 overflow-y-auto'>
                                 <p className='inline'>{messages}</p>
                             </div>
