@@ -1,0 +1,3 @@
+.imageContainer {
+    @apply overflow-x-scroll overflow-y-hidden whitespace-nowrap w-screen h-screen space-x-32 p-20;
+}

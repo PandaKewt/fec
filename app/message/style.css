@@ -1,0 +1,27 @@
+.letterBackground {
+    @apply -z-10;
+}
+
+.letterContext {
+    @apply overflow-y-auto;
+}
+
+.letterContainer {
+    @apply absolute w-full h-full inline-flex overflow-hidden p-20;
+}
+
+.letterContainerNow {
+    @apply letterContainer flex-grow;
+}
+
+.letterContainerPrev {
+    @apply letterContainer scale-75 -translate-x-1/2 flex-shrink;
+}
+
+.letterContainerNext {
+    @apply letterContainer scale-75 translate-x-1/2 flex-shrink;
+}
+
+.letterContainerContainer {
+    @apply relative flex w-screen h-1/2;
+}

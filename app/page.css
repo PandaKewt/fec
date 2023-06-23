@@ -1,0 +1,7 @@
+.letterContainer {
+    @apply flex flex-col w-screen h-screen justify-center items-center;
+}
+
+.letterHedder {
+    @apply mx-auto font-serif text-5xl;
+}

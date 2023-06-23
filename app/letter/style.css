@@ -1,0 +1,11 @@
+.letterBackground {
+    @apply -z-10;
+}
+
+.letterContext {
+    @apply overflow-y-auto;
+}
+
+.letterContainer {
+    @apply relative w-3/4 h-4/5 flex overflow-hidden p-20;
+}
